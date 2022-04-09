@@ -54,6 +54,17 @@
     transform: translateY(-50%) scale(1.5);
     padding: 0.1em;
   }
+  .box-minmax {
+    margin-top: 30px;
+    width: 408px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: #080808;
+    span:first-child {
+        margin-left: 10px;
+    }
+}
   
 //   body {
 //     font-family: monospace;
