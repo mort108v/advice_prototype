@@ -12,6 +12,7 @@
     "vite": "^2.8.0"
   },
   "dependencies": {
+    "npm": "^8.6.0",
     "website-carbon-calculator": "^1.2.7"
   }
 }
