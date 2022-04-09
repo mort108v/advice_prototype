@@ -2,6 +2,7 @@
 
 
 import './rangeslider'
+import './push'
 
 const adviceAPIkey = "AIzaSyA3T3lU6NyXFlEjJMt739iXmn-GBT_B7qk";
 // const inputForm = document.getElementById("siteinput");

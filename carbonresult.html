@@ -99,6 +99,62 @@
             </div>
         </div>
     </section>
+    <main id="main">
+        <section>
+          <form>
+            <div class="form-group">
+              <label for="name">
+                <span class="hint">Enter name</span>
+              </label>
+              <input id="name" type="text" name="name" required />
+            </div>
+  
+            <div class="form-group">
+              <label for="Number">
+                <span class="hint">price</span>
+              </label>
+              <div class="input-group">
+                <input
+                  type="number"
+                  id="price"
+                  pattern="[0-9]"
+                  name="price"
+                  inputmode="decimal"
+                  required
+                />
+              </div>
+            </div>
+  
+            <fieldset class="check_box">
+              <legend>check box</legend>
+              <span class="hint">check</span>
+              <ul role="list" class="controls">
+                <li>
+                  <label for="yes">
+                    <input id="yes" type="radio" name="happy_hour" value="yes" />
+                    Yes
+                  </label>
+                </li>
+                <li>
+                  <label for="no">
+                    <input
+                      id="no"
+                      type="radio"
+                      name="happy_hour"
+                      value="no"
+                      checked
+                    />
+                    No
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
+  
+            <button data-add class="btn">Add</button>
+          </form>
+        </section>
+        <div id="cards"></div>
+      </main>
 </body>
 
 </html>
